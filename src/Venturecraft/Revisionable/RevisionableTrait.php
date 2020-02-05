@@ -15,6 +15,8 @@ use Illuminate\Support\Arr;
  */
 trait RevisionableTrait
 {
+        protected $connection = 'student_data_warehouse';
+
     /**
      * @var array
      */
