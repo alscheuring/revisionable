@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Log;
  */
 class Revision extends Eloquent
 {
+        protected $connection = 'student_data_warehouse';
+
     /**
      * @var string
      */
