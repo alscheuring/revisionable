@@ -16,6 +16,8 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
  */
 class Revisionable extends Eloquent
 {
+        protected $connection = 'student_data_warehouse';
+
     /**
      * @var
      */
